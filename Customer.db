@@ -1,0 +1,39 @@
+Create table CUSTOMER(Cust_ID int, Cust_Name varchar(50), 
+Cust_Address char(50), 
+Phone_no int, 
+Cust_Vehicle char(20),
+Vehicle_No char(20),
+Service varchar(20),
+Part_Used varchar(20),
+Price int, 
+DateOfService varchar(20)); 
+
+insert into CUSTOMER values(1,"Raj Sharma","Gopal 
+Appt",8978979,"Chevrolet Camaro","HR26X6452","Carwash","Cleaning Liquid",7500,"2021-02-10"); 
+
+insert into CUSTOMER values(2,"Dharam Verma ","Rosewood 
+Appt",9910515,"BMW I4","HR26M1782","partchange","radiator",10000,"2021-03-11"); 
+
+insert into CUSTOMER values(3,"Ram Singh","Sispal 
+Appt",9075879,"Maruti Suzuki","HR26Z2252","Carwash","Cleaning Liquid",7500,"2021-02-11"); 
+
+insert into CUSTOMER values(4,"Param Misra","Orchid 
+Appt",8765879,"Toyota Innova","HR26V78972","paintjob","Car Paint",12500,"2021-03-22"); 
+
+insert into CUSTOMER values(5,"Daksh Yadav","BPTP 
+Appt",8678829,"Chevrolet Spark","HR26A2222","tyrechange","Tyre(M)",16000,"2021-03-23"); 
+
+insert into CUSTOMER values(6,"Viren Sharma","Navdeep 
+Appt",8656377, "Hyundai i20","HR26A7324","tyrechange","Tyre(S)",13000,"2021-03-30"); 
+
+insert into CUSTOMER values(7,"Girish Rao","Velvet Appt",9988417, "MG 
+Hector","HR26D1231","Carwash","Cleaning Liquid",7500,"2021-04-09"); 
+
+insert into CUSTOMER values(8,"Sam Smith","Belvedere Appt",9732417, 
+"Mercedes S-Class","HR26D2231","partchange","Braking Liquid",13500,"2021-04-19"); 
+ 
+insert into CUSTOMER values(9,"Lakshya Gautam","Spaze Privy 
+Appt",8654117, "Toyota Fortuner","HR26W7981","tyrechange","Tyre(L)",19000,"2021-04-29"); 
+
+insert into CUSTOMER values(10,"Dinesh Mehta","Lilly Appt",8223117, 
+"KIA Seltos","HR26O9981","partchange","Suspension",20000,"2021-05-10"); 
