@@ -1,0 +1,21 @@
+Create table INVENTORY(Service_ID int,
+Service varchar(50),
+Part_Used char(50),
+Qty int,
+Monthly_Earned int, 
+DateOfRestock char(20),
+Quantity_Sold int); 
+
+insert into INVENTORY values(001,"partchange","radiator",12,20000,"12th",2); 
+
+insert into INVENTORY values(002,"tyrechange","Tyre(S)",32,39000,"7th",3); 
+
+insert into INVENTORY values(003,"tyrechange","Tyre(M)",18,32000,"8th",2); 
+
+insert into INVENTORY values(004,"tyrechange","Tyre(L)",8,57000,"2nd",3); 
+
+insert into INVENTORY values(005,"partchange","Braking Liquid",3,27000,"14th",2); 
+
+insert into INVENTORY values(006,"partchange","Suspension",6,20000,"1st",1); 
+
+insert into INVENTORY values(007,"carwash","Cleaning Liquid",13,30000,"5th",4); 
